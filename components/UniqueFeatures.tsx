@@ -1,135 +1,99 @@
-import Image from 'next/image'
+"use client";
+import React from 'react';
 
-const uniqueCards = [
-  {
-    title: 'Smart Gifting',
-    description: 'Choose from curated investment options for every occasion',
-    icon: '/images/placeholder.png',
-    color: 'bg-blue-50'
-  },
-  {
-    title: 'Easy Returns',
-    description: 'Flexible return policies with no hidden charges',
-    icon: '/images/placeholder.png',
-    color: 'bg-green-50'
-  },
-  {
-    title: 'Noble Causes',
-    description: 'Support social causes while gifting to your loved ones',
-    icon: '/images/placeholder.png',
-    color: 'bg-purple-50'
-  }
-]
-
+// Main component
 export default function UniqueFeatures() {
   return (
-    <section className="py-20 bg-gray-50">
+    <section className="py-20 bg-indigo-600 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-16">
-          {/* Left: Text Content */}
-          <div>
-            <h2 className="text-4xl md:text-5xl font-bold text-heading mb-6">
-              Why Choose Bahumathi?
-            </h2>
-            <p className="text-xl text-body mb-8 leading-relaxed">
-              We're not just another gifting platform. We're revolutionizing how people think about gifts by combining the joy of giving with the power of smart investments.
-            </p>
-            
-            <div className="space-y-6">
-              <div className="flex items-start space-x-4">
-                <div className="w-6 h-6 bg-primary rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                  <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                  </svg>
-                </div>
-                <div>
-                  <h3 className="text-lg font-semibold text-heading mb-2">SEBI Registered</h3>
-                  <p className="text-body">Your investments are protected under SEBI regulations</p>
-                </div>
-              </div>
-              
-              <div className="flex items-start space-x-4">
-                <div className="w-6 h-6 bg-primary rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                  <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                  </svg>
-                </div>
-                <div>
-                  <h3 className="text-lg font-semibold text-heading mb-2">Zero Commission</h3>
-                  <p className="text-body">No hidden fees or commission charges on your investments</p>
-                </div>
-              </div>
-              
-              <div className="flex items-start space-x-4">
-                <div className="w-6 h-6 bg-primary rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                  <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                  </svg>
-                </div>
-                <div>
-                  <h3 className="text-lg font-semibold text-heading mb-2">Instant Processing</h3>
-                  <p className="text-body">Get your investments processed within minutes</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Right: Phone Mockup */}
-          <div>
-            <div className="relative">
-              <Image
-                src="/images/placeholder.png"
-                alt="Unique Features Phone Mockup"
-                width={400}
-                height={800}
-                className="mx-auto lg:mx-0"
-              />
-              
-              {/* Floating Stats */}
-              <div className="absolute -top-6 -left-6 bg-white rounded-2xl shadow-xl p-4 border border-gray-100">
-                <div className="text-center">
-                  <p className="text-2xl font-bold text-primary">50K+</p>
-                  <p className="text-xs text-body">Happy Users</p>
-                </div>
-              </div>
-              
-              <div className="absolute -bottom-6 -right-6 bg-white rounded-2xl shadow-xl p-4 border border-gray-100">
-                <div className="text-center">
-                  <p className="text-2xl font-bold text-green-600">₹2Cr+</p>
-                  <p className="text-xs text-body">Invested</p>
-                </div>
-              </div>
-            </div>
-          </div>
+        {/* Header Text */}
+        <div className="text-left mb-12 max-w-3xl">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">
+            Avail Best Experience with our Unique Features
+          </h2>
+          <p className="text-indigo-200">
+            Discover a seamless and meaningful way to gift and invest with features designed for your convenience and peace of mind.
+          </p>
         </div>
 
-        {/* Feature Cards */}
-        <div className="grid md:grid-cols-3 gap-8">
-          {uniqueCards.map((card, index) => (
-            <div key={index} className={`${card.color} rounded-2xl p-8 hover:shadow-lg transition-all transform hover:-translate-y-2`}>
-              <div className="mb-6">
-                <Image
-                  src={card.icon}
-                  alt={card.title}
-                  width={48}
-                  height={48}
-                  className="mb-4"
-                />
-                <h3 className="text-xl font-semibold text-heading mb-3">
-                  {card.title}
-                </h3>
-                <p className="text-body leading-relaxed">
-                  {card.description}
-                </p>
+        {/* Grid Container */}
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 md:gap-8">
+          
+          {/* Top Card: No Demat */}
+          <div className="lg:col-span-3 bg-white text-gray-800 rounded-2xl p-6 md:p-8 shadow-lg flex flex-col md:flex-row items-center gap-6 md:gap-8">
+            <div className="w-full md:w-1/2 text-center md:text-left">
+              <h3 className="text-xl md:text-2xl font-bold mb-3 md:mb-4">No Demat, No Hassle</h3>
+              <p className="text-sm md:text-base text-gray-600 mb-4 md:mb-6">
+                You do not require a Demat Account or go through multiple KYC document verifications to start gifting or investing with Bahumathi thanks to our whole new payment infrastructure.
+              </p>
+              <button className="bg-indigo-600 text-white px-4 md:px-6 py-2 md:py-3 rounded-lg font-semibold flex items-center gap-2 mx-auto md:mx-0">
+                Get Started 
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-right" viewBox="0 0 16 16">
+                  <path fillRule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                </svg>
+              </button>
+              <div className="mt-4 md:mt-6">
+                <p className="text-xs text-gray-500">Powered by</p>
+                <img src="powered-by-logos.png" alt="Logos" className="h-4 md:h-6 mt-1 mx-auto md:mx-0" />
               </div>
-              
-              <button className="text-primary font-semibold hover:text-primary/80 transition-colors">
-                Learn More →
+            </div>
+            <div className="w-full md:w-1/2">
+              <img src="phones-mockup.png" alt="App on phones" className="w-full max-w-sm md:max-w-none h-auto mx-auto" />
+            </div>
+          </div>
+
+          {/* Gift a Future Card (Wider) */}
+          <div className="lg:col-span-2 bg-white text-gray-800 rounded-2xl shadow-lg min-h-[320px] md:h-80 flex flex-col md:flex-row items-center p-0 overflow-hidden">
+            <div className="w-full md:w-1/2 z-10 p-6 md:p-8 text-center md:text-left">
+              <h3 className="text-xl md:text-2xl font-bold mb-3 md:mb-4">Gift a Future to Your Loved Little Ones</h3>
+              <p className="text-sm md:text-base text-gray-600 mb-4 md:mb-6">
+                Start their journey with the gift of digital assets. Invest in their future with gold or mutual fund units—secure, meaningful, and timeless.
+              </p>
+              <button className="bg-indigo-600 text-white px-4 md:px-6 py-2 md:py-3 rounded-lg font-semibold mx-auto md:mx-0">
+                Start Gifting Now
               </button>
             </div>
-          ))}
+            <div className="w-full md:w-1/2 h-48 md:h-full relative">
+              <img src="gift-illustration.png" alt="Mother and child illustration" className="absolute bottom-0 right-0 h-full w-auto object-contain mx-auto md:mx-0" />
+            </div>
+          </div>
+
+          {/* Profits Card 1 (Square) */}
+          <div className="bg-white text-gray-800 rounded-2xl shadow-lg min-h-[320px] md:h-80 flex flex-col p-6 md:p-8 overflow-hidden">
+            <h3 className="text-4xl md:text-6xl font-bold">10L+</h3>
+            <p className="text-sm md:text-base text-gray-600 mb-3 md:mb-4">Seen in Profits by the users over the span</p>
+            <div className="flex-grow mt-3 md:mt-4 -mr-6 md:-mr-8 -mb-6 md:-mb-8">
+              <img src="profit-graph.png" alt="Profit graph" className="w-full h-full object-cover" />
+            </div>
+          </div>
+
+          {/* Profits Card 2 */}
+          <div className="hidden lg:block bg-white text-gray-800 rounded-2xl shadow-lg min-h-[320px] md:h-80 flex flex-col p-6 md:p-8 overflow-hidden">
+            <h3 className="text-4xl md:text-6xl font-bold">10L+</h3>
+            <p className="text-sm md:text-base text-gray-600 mb-3 md:mb-4">Seen in Profits by the users over the span</p>
+            <div className="flex-grow mt-3 md:mt-4 -mr-6 md:-mr-8 -mb-6 md:-mb-8">
+              <img src="profit-graph.png" alt="Profit graph" className="w-full h-full object-cover" />
+            </div>
+          </div>
+
+          {/* Support Sacred Spaces Card */}
+          <div className="lg:col-span-2 bg-white text-gray-800 rounded-2xl shadow-lg min-h-[320px] md:h-80 flex flex-col md:flex-row items-center p-0 overflow-hidden">
+            <div className="w-full md:w-1/2 z-10 p-6 md:p-8 text-center md:text-left">
+              <h3 className="text-xl md:text-2xl font-bold mb-3 md:mb-4">Support Sacred Spaces & Noble Causes</h3>
+              <p className="text-sm md:text-base text-gray-600 mb-4 md:mb-6">
+              Easily donate digital assets to temples or registered trusts and be a part of something meaningful.
+              </p>
+              <button className="bg-indigo-600 text-white px-4 md:px-6 py-2 md:py-3 rounded-lg font-semibold mx-auto md:mx-0">
+              Donate Now
+              </button>
+            </div>
+            <div className="w-full md:w-1/2 h-48 md:h-full flex items-center justify-center">
+            <img src="temple-illustration.png" alt="Temple illustration" className="w-[80%] h-auto" />
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
-  )
+  );
 }

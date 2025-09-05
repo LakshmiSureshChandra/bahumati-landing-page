@@ -39,12 +39,12 @@ export default function Moments() {
           <p className="text-md text-gray-600 max-w-3xl mx-auto mb-6">
             Send your love wrapped in value. Gift Gold or mutual fund units app. Celebrate meaningfully, anytime, anywhere.
           </p>
-          <p className="font-semibold text-gray-700 mb-4">Download Now</p>
+          <p className="font-semibold text-gray-700 mb-4">Soon you can Download on</p>
           <div className="flex justify-center items-center gap-4">
-            <a href="#" aria-label="Download on the App Store">
+            <a aria-label="Download on the App Store">
               <img src="app-store-badge.png" alt="App Store Badge" className="h-12" />
             </a>
-            <a href="#" aria-label="Get it on Google Play">
+            <a aria-label="Get it on Google Play">
               <img src="google-play-badge.png" alt="Google Play Badge" className="h-12" />
             </a>
           </div>

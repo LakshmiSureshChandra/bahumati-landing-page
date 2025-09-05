@@ -24,12 +24,12 @@ export default function Hero() {
         </p>
         
         <div className="flex items-center justify-center gap-4">
-          <button className="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-3 rounded-lg font-semibold text-lg transition-transform transform hover:scale-105 shadow-md">
+          {/* <button className="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-3 rounded-lg font-semibold text-lg transition-transform transform hover:scale-105 shadow-md">
             Get Started
-          </button>
-          <button className="text-gray-800 hover:text-indigo-600 px-8 py-3 rounded-lg font-semibold text-lg transition-colors">
+          </button> */}
+          {/* <button className="text-gray-800 hover:text-indigo-600 px-8 py-3 rounded-lg font-semibold text-lg transition-colors">
             Know More
-          </button>
+          </button> */}
         </div>
       </div>
 

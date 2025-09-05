@@ -15,12 +15,12 @@ export default function AppDownload() {
               Take control of your finances with our all-in-one app. Seamlessly invest, send meaningful gifts, and track your portfolio's performance with ease.
             </p>
             
-            <p className="font-semibold text-gray-700 mb-4">Download Now</p>
+            <p className="font-semibold text-gray-700 mb-4">Soon you can Download on</p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href="#" aria-label="Download on the App Store">
+              <a aria-label="Download on the App Store">
                 <img src="app-store-badge.png" alt="App Store Badge" className="h-12" />
               </a>
-              <a href="#" aria-label="Get it on Google Play">
+              <a aria-label="Get it on Google Play">
                 <img src="google-play-badge.png" alt="Google Play Badge" className="h-12" />
               </a>
             </div>

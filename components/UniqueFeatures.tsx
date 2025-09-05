@@ -26,12 +26,12 @@ export default function UniqueFeatures() {
               <p className="text-sm md:text-base text-gray-600 mb-4 md:mb-6">
                 You do not require a Demat Account or go through multiple KYC document verifications to start gifting or investing with Bahumathi thanks to our whole new payment infrastructure.
               </p>
-              <button className="bg-indigo-600 text-white px-4 md:px-6 py-2 md:py-3 rounded-lg font-semibold flex items-center gap-2 mx-auto md:mx-0">
+              {/* <button className="bg-indigo-600 text-white px-4 md:px-6 py-2 md:py-3 rounded-lg font-semibold flex items-center gap-2 mx-auto md:mx-0">
                 Get Started 
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-right" viewBox="0 0 16 16">
                   <path fillRule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
                 </svg>
-              </button>
+              </button> */}
               <div className="mt-4 md:mt-6">
                 <p className="text-xs text-gray-500">Powered by</p>
                 <img src="powered-by-logos.png" alt="Logos" className="h-4 md:h-6 mt-1 mx-auto md:mx-0" />
@@ -49,9 +49,9 @@ export default function UniqueFeatures() {
               <p className="text-sm md:text-base text-gray-600 mb-4 md:mb-6">
                 Start their journey with the gift of digital assets. Invest in their future with gold or mutual fund units—secure, meaningful, and timeless.
               </p>
-              <button className="bg-indigo-600 text-white px-4 md:px-6 py-2 md:py-3 rounded-lg font-semibold mx-auto md:mx-0">
+              {/* <button className="bg-indigo-600 text-white px-4 md:px-6 py-2 md:py-3 rounded-lg font-semibold mx-auto md:mx-0">
                 Start Gifting Now
-              </button>
+              </button> */}
             </div>
             <div className="w-full md:w-1/2 h-48 md:h-full relative">
               <img src="gift-illustration.png" alt="Mother and child illustration" className="absolute bottom-0 right-0 h-full w-auto object-contain mx-auto md:mx-0" />
@@ -83,9 +83,9 @@ export default function UniqueFeatures() {
               <p className="text-sm md:text-base text-gray-600 mb-4 md:mb-6">
               Easily donate digital assets to temples or registered trusts and be a part of something meaningful.
               </p>
-              <button className="bg-indigo-600 text-white px-4 md:px-6 py-2 md:py-3 rounded-lg font-semibold mx-auto md:mx-0">
+              {/* <button className="bg-indigo-600 text-white px-4 md:px-6 py-2 md:py-3 rounded-lg font-semibold mx-auto md:mx-0">
               Donate Now
-              </button>
+              </button> */}
             </div>
             <div className="w-full md:w-1/2 h-48 md:h-full flex items-center justify-center">
             <img src="temple-illustration.png" alt="Temple illustration" className="w-[80%] h-auto" />

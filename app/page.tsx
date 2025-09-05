@@ -20,7 +20,7 @@ export default function Home() {
       <Moments />
       <UniqueFeatures />
       <InvestmentsGraph />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <AppDownload />
       <FAQ />
       <Footer />

@@ -144,25 +144,26 @@ export default function FAQ() {
         </div>
 
         {/* Contact Support */}
-        <div className="mt-16 bg-gradient-to-r from-indigo-600 to-purple-700 rounded-2xl p-8 md:p-12 flex flex-col md:flex-row items-center justify-between text-white shadow-2xl relative overflow-hidden min-h-[300px]">
-          <div className="md:w-2/3 mb-8 md:mb-0 text-center md:text-left z-10">
-            <h3 className="text-3xl font-bold mb-4">
-              Still Got Questions?
-            </h3>
-            <p className="text-indigo-200 mb-6 max-w-xl">
-              We're here to help! Whether it's about gifting, investing, or app features — reach out to us anytime for quick answers and friendly support.
-            </p>
-            <button className="bg-white text-indigo-600 px-6 py-3 rounded-lg font-semibold flex items-center gap-2 mx-auto md:mx-0">
-              Contact Us 24x7
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-right" viewBox="0 0 16 16">
-                <path fillRule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
-              </svg>
-            </button>
-          </div>
-          <div className="md:absolute md:bottom-0 md:right-10 md:w-1/3 bottom-0flex justify-center">
-            <img src="support-lady.png" alt="Support agent" className="w-43 md:w-65 h-auto" />
-          </div>
-        </div>
+        <div 
+  id="contact" // <-- ADD THIS ID HERE
+  className="mt-16 bg-gradient-to-r from-indigo-600 to-purple-700 rounded-2xl p-8 md:p-12 flex flex-col md:flex-row items-center justify-between text-white shadow-2xl relative overflow-hidden min-h-[300px]"
+>
+  <div className="md:w-2/3 mb-8 md:mb-0 text-center md:text-left z-10">
+    <h3 className="text-3xl font-bold mb-4">
+      Still Got Questions?
+    </h3>
+    <p className="text-indigo-200 mb-6 max-w-xl">
+      We're here to help! Whether it's about gifting, investing, or app features — reach out to us anytime for quick answers and friendly support.
+    </p>
+    <button className="bg-white text-indigo-600 px-6 py-3 rounded-lg font-semibold flex items-center gap-2 mx-auto md:mx-0">
+      Contact Us 24x7
+      {/* ... svg icon ... */}
+    </button>
+  </div>
+  <div className="md:absolute md:bottom-0 md:right-10 md:w-1/3 bottom-0flex justify-center">
+    <img src="support-lady.png" alt="Support agent" className="w-43 md:w-65 h-auto" />
+  </div>
+</div>
       </div>
     </section>
   )

@@ -109,7 +109,7 @@ export default function Footer() {
           </div>
 
           {/* Column 5 & 6: Newsletter */}
-          <div className="col-span-2">
+          {/* <div className="col-span-2">
             <h3 className="text-sm font-semibold text-gray-900 tracking-wider uppercase mb-4">Join Our Newsletter</h3>
             <p className="text-gray-500 mb-4">
               Stay up to date with our latest updates, offers & much more
@@ -124,7 +124,7 @@ export default function Footer() {
                 Subscribe
               </button>
             </div>
-          </div>
+          </div> */}
 
            {/* Column 1: Others */}
            {/* <div className="mt-8">

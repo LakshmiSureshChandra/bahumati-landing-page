@@ -4,19 +4,19 @@ const steps = [
   {
     id: 1,
     title: 'Choose a Gift',
-    description: 'Select from a wide range of meaningful digital gifts and investments for any occasion.',
+    description: 'Select from a wide range of meaningful digital units for any occasion.',
     icon: 'icon.png' 
   },
   {
     id: 2,
     title: 'Personalize Your Message',
-    description: 'Add the recipient’s details and write a heartfelt message to make your gift special.',
+    description: 'Add the recipient’s details and write a heartfelt message/video to make your gift special.',
     icon: 'icon.png'
   },
   {
     id: 3,
     title: 'Send Instantly',
-    description: 'Your thoughtful gift is delivered instantly to your loved ones via email or text.',
+    description: 'Your thoughtful gift is delivered instantly to your loved ones via email & text.',
     icon: 'icon.png'
   }
 ]
@@ -30,7 +30,7 @@ export default function HowItWorks() {
             How it works
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Gifting digital assets is simple, secure, and takes only a few moments.
+            Gifting bhumati DiGi units is simple, secure, and takes only a few moments.
           </p>
         </div>
 

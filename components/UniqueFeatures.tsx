@@ -12,7 +12,7 @@ export default function UniqueFeatures() {
             Avail Best Experience with our Unique Features
           </h2>
           <p className="text-indigo-200">
-            Discover a seamless and meaningful way to gift and invest with features designed for your convenience and peace of mind.
+            Discover a seamless and meaningful way to gift and self-gift with features designed for your convenience and peace of mind.
           </p>
         </div>
 
@@ -24,7 +24,7 @@ export default function UniqueFeatures() {
             <div className="w-full md:w-1/2 text-center md:text-left">
               <h3 className="text-xl md:text-2xl font-bold mb-3 md:mb-4">No Demat, No Hassle</h3>
               <p className="text-sm md:text-base text-gray-600 mb-4 md:mb-6">
-                You do not require a Demat Account or go through multiple KYC document verifications to start gifting or investing with Bahumathi thanks to our whole new payment infrastructure.
+                You do not require a Demat Account or go through multiple KYC document verifications to start gifting or self-gifting with Bahumathi thanks to our whole new payment infrastructure.
               </p>
               {/* <button className="bg-indigo-600 text-white px-4 md:px-6 py-2 md:py-3 rounded-lg font-semibold flex items-center gap-2 mx-auto md:mx-0">
                 Get Started 
@@ -47,7 +47,7 @@ export default function UniqueFeatures() {
             <div className="w-full md:w-1/2 z-10 p-6 md:p-8 text-center md:text-left">
               <h3 className="text-xl md:text-2xl font-bold mb-3 md:mb-4">Gift a Future to Your Loved Little Ones</h3>
               <p className="text-sm md:text-base text-gray-600 mb-4 md:mb-6">
-                Start their journey with the gift of digital assets. Invest in their future with gold or mutual fund units—secure, meaningful, and timeless.
+                Start their journey with the gift of bahumati digital units. Invest in their future with top 50 indian companies or gold units, meaningful, and timeless.
               </p>
               {/* <button className="bg-indigo-600 text-white px-4 md:px-6 py-2 md:py-3 rounded-lg font-semibold mx-auto md:mx-0">
                 Start Gifting Now
@@ -81,7 +81,7 @@ export default function UniqueFeatures() {
             <div className="w-full md:w-1/2 z-10 p-6 md:p-8 text-center md:text-left">
               <h3 className="text-xl md:text-2xl font-bold mb-3 md:mb-4">Support Sacred Spaces & Noble Causes</h3>
               <p className="text-sm md:text-base text-gray-600 mb-4 md:mb-6">
-              Easily donate digital assets to temples or registered trusts and be a part of something meaningful.
+              Easily donate bahumati DiGi units to temples or registered trusts and be a part of something meaningful.
               </p>
               {/* <button className="bg-indigo-600 text-white px-4 md:px-6 py-2 md:py-3 rounded-lg font-semibold mx-auto md:mx-0">
               Donate Now

@@ -16,11 +16,11 @@ export default function Hero() {
         <h1 className="text-4xl md:text-6xl font-bold text-indigo-600 mb-4 leading-tight">
           Celebrate Moments With
           <br />
-          <span className="text-gray-800">Meaningful Digital Gifts</span>
+          <span className="text-gray-800">Meaningful Digital Units</span>
         </h1>
         
         <p className="text-lg md:text-xl text-gray-500 mb-8 max-w-2xl mx-auto">
-          A revolutionary way to invest & gift in India. Send digital assets and personalized wishes instantly to your loved ones.
+          A revolutionary way to gift in India. Send top 50 indian company units and gold with personalized wishes instantly to your loved ones.
         </p>
         
         <div className="flex items-center justify-center gap-4">

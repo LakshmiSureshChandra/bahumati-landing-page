@@ -41,10 +41,10 @@ export default function InvestmentCalculator() {
           <div className="flex flex-col gap-12">
             <div>
               <h2 className="text-4xl md:text-5xl font-bold mb-4">
-                <span className="text-indigo-600">Choose</span> investments wisely to unlock greater <span className="text-indigo-600">returns</span>
+                <span className="text-indigo-600">Choose</span> digital units wisely to unlock greater <span className="text-indigo-600">Wealth</span>
               </h2>
               <p className="text-gray-600">
-                Compare asset classes and discover smarter ways to grow your wealth. Don't settle for less when your money can do more.
+                Compare digital units classes and discover smarter ways to grow your wealth. Don't settle for less when your gifts can do more.
               </p>
             </div>
 

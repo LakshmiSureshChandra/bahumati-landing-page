@@ -9,10 +9,10 @@ export default function AppDownload() {
           {/* Left: Content */}
           <div className="text-gray-800">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Investing, Gifting and Portfolio Tracking - All at one place
+              Self-Gifting, Gifting and Portfolio Tracking - All at one place
             </h2>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              Take control of your finances with our all-in-one app. Seamlessly invest, send meaningful gifts, and track your portfolio's performance with ease.
+              Take control of your wealth with our all-in-one app. Seamlessly self-gift, send meaningful gifts, and track your portfolio's performance with ease.
             </p>
             
             <p className="font-semibold text-gray-700 mb-4">Soon you can Download on</p>

@@ -10,7 +10,7 @@ const faqData = {
     },
     {
       question: 'What types of assets can I gift on Bahumati?',
-      answer: 'You can gift a variety of digital assets, including Gold, Silver, and units of various Mutual Funds and ETFs.'
+      answer: 'You can gift a variety of digital units, including Gold and units of Top 50 Indian Companies.'
     },
     {
       question: 'Can I schedule a gift for a birthday or special occasion?',
@@ -30,10 +30,10 @@ const faqData = {
       question: 'What are the benefits of investing through Bahumati?',
       answer: 'Bahumathi offers a user-friendly platform with curated investment options, zero commission, and the ability to start with small amounts. It\'s designed to make investing accessible to everyone.'
     },
-    {
-      question: 'How are the investment options selected?',
-      answer: 'Our financial experts carefully select a range of high-performing, SEBI-registered mutual funds and ETFs to ensure you have access to quality investment products.'
-    }
+    // {
+    //   question: 'How are the investment options selected?',
+    //   answer: 'Our financial experts carefully select a range of high-performing, SEBI-registered mutual funds and ETFs to ensure you have access to quality investment products.'
+    // }
   ],
   Transactions: [
     {
@@ -42,7 +42,7 @@ const faqData = {
     },
     {
       question: 'How long do transactions take to process?',
-      answer: 'Most transactions, including gifting and investing, are processed instantly or within a few business hours, depending on the asset type.'
+      answer: 'Most transactions, including self-gifting and gifting, are processed instantly or within a few business hours.'
     }
   ],
   'Security & Services': [
@@ -153,7 +153,7 @@ export default function FAQ() {
       Still Got Questions?
     </h3>
     <p className="text-indigo-200 mb-6 max-w-xl">
-      We're here to help! Whether it's about gifting, investing, or app features — reach out to us anytime for quick answers and friendly support.
+      We're here to help! Whether it's about gifting, self-investing, or app features — reach out to us anytime for quick answers and friendly support.
     </p>
     <button className="bg-white text-indigo-600 px-6 py-3 rounded-lg font-semibold flex items-center gap-2 mx-auto md:mx-0">
       Contact Us 24x7

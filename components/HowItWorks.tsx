@@ -30,7 +30,7 @@ export default function HowItWorks() {
             How it works
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Gifting bhumati DiGi units is simple, secure, and takes only a few moments.
+            Gifting Bahumati DiGi units is simple, secure, and takes only a few moments.
           </p>
         </div>
 

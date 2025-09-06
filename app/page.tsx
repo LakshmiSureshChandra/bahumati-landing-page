@@ -16,7 +16,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <HowItWorks />
-      <Features />
+      {/* <Features /> */}
       <Moments />
       <UniqueFeatures />
       <InvestmentsGraph />

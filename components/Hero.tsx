@@ -20,7 +20,7 @@ export default function Hero() {
         </h1>
         
         <p className="text-lg md:text-xl text-gray-500 mb-8 max-w-2xl mx-auto">
-          A revolutionary way to gift in India. Send top 50 indian company units and gold with personalized wishes instantly to your loved ones.
+          A revolutionary way to gift in India. Send Top 50 Indian Company Units and Gold Units with personalized wishes instantly to your loved ones.
         </p>
         
         <div className="flex items-center justify-center gap-4">

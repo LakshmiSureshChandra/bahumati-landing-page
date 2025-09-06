@@ -27,16 +27,15 @@ export default function InvestmentCalculator() {
     }
     return result.trim();
   };
-  
-  // Simple calculation for returns
-  const returns = investment * (time / 12) * 0.12; // 12% annual return
+
+  // Simple calculation for returns (Updated to 15%)
+  const returns = investment * (time / 12) * 0.15; // 15% annual return
   const totalValue = investment + returns;
 
   return (
     <section className="py-20 bg-white text-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          
           {/* Left Side: Controls */}
           <div className="flex flex-col gap-12">
             <div>
@@ -84,8 +83,8 @@ export default function InvestmentCalculator() {
               </div>
             </div>
 
-             {/* Investment Amount Slider */}
-             <div>
+            {/* Investment Amount Slider */}
+            <div>
               <label className="font-semibold mb-2 block">Investment Amount</label>
               <input
                 type="range"
@@ -110,7 +109,7 @@ export default function InvestmentCalculator() {
           </div>
         </div>
       </div>
-       <style jsx>{`
+      <style jsx>{`
         .slider::-webkit-slider-thumb {
           -webkit-appearance: none;
           appearance: none;

@@ -78,7 +78,7 @@ interface FormDataState {
 const faqData: FaqData = {
   Gifting: [
     {
-      question: "How do I send a digital gift through Bahumathi?",
+      question: "How do I send a digital gift through Bahumati?",
       answer:
         "Simply choose the asset you want to gift, enter the recipient’s phone number or Bahumati ID, add an optional message, and hit send. It’s fast, secure, and takes just a few taps.",
     },
@@ -106,16 +106,16 @@ const faqData: FaqData = {
   ],
   Investing: [
     {
-      question: "What are the benefits of investing through Bahumathi?",
+      question: "What are the benefits of investing through Bahumati?",
       answer:
-        "Bahumathi offers a user-friendly platform with curated investment options, zero commission, and the ability to start with small amounts. It's designed to make investing accessible to everyone.",
+        "Bahumati offers a user-friendly platform with curated investment options, zero commission, and the ability to start with small amounts. It's designed to make investing accessible to everyone.",
     },
   ],
   Transactions: [
     {
       question: "Are there any hidden fees on transactions?",
       answer:
-        "No, Bahumathi is a zero-commission platform. We believe in complete transparency. The only charges are the standard expense ratios applicable to mutual funds.",
+        "No, Bahumati is a zero-commission platform. We believe in complete transparency. The only charges are the standard expense ratios applicable to mutual funds.",
     },
     {
       question: "How long do transactions take to process?",
@@ -125,7 +125,7 @@ const faqData: FaqData = {
   ],
   "Security & Services": [
     {
-      question: "Is Bahumathi regulated?",
+      question: "Is Bahumati regulated?",
       answer:
         "Yes, Bahumati is a SEBI-registered platform, and we comply with all regulatory guidelines to ensure the safety and security of your investments.",
     },

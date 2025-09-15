@@ -5,7 +5,7 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Bahumathi - Celebrate Moments With Meaningful Digital Gifts',
+  title: 'Bahumati - Celebrate Moments With Meaningful Digital Gifts',
   description: 'A modern way to invest & gift in India.',
 }
 

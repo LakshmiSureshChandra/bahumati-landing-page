@@ -328,7 +328,7 @@ export default function ContactPage() {
                   Launching Soon
                 </span>
                 <h1 className="text-4xl md:text-5xl font-extrabold text-[var(--heading)] mt-2 mb-6">
-                  Be the First to Experience Bahumathi
+                  Be the First to Experience Bahumati
                 </h1>
                 <p className="text-lg text-[var(--body)] mb-8">
                   A new era of digital gifting and self gifting is just around the

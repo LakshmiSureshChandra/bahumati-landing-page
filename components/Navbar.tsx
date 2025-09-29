@@ -14,7 +14,7 @@ export default function Navbar() {
             <img
               src="logo.png"
               alt="Bahumathi Logo"
-              className="h-8 w-auto"
+              className="h-36 w-auto"
             />
           </a>
 

@@ -60,7 +60,7 @@ export default function UniqueFeatures() {
 
           {/* Profits Card 1 (Square) */}
           <div className="bg-white text-gray-800 rounded-2xl shadow-lg min-h-[320px] md:h-80 flex flex-col p-6 md:p-8 overflow-hidden">
-            <h3 className="text-4xl md:text-6xl font-bold">10L+</h3>
+            <h3 className="text-4xl md:text-6xl font-bold">1k+</h3>
             <p className="text-sm md:text-base text-gray-600 mb-3 md:mb-4">Seen in Profits by the users over the span</p>
             <div className="flex-grow mt-3 md:mt-4 -mr-6 md:-mr-8 -mb-6 md:-mb-8">
               <img src="profit-graph.png" alt="Profit graph" className="w-full h-full object-cover" />
@@ -69,7 +69,7 @@ export default function UniqueFeatures() {
 
           {/* Profits Card 2 */}
           <div className="hidden lg:block bg-white text-gray-800 rounded-2xl shadow-lg min-h-[320px] md:h-80 flex flex-col p-6 md:p-8 overflow-hidden">
-            <h3 className="text-4xl md:text-6xl font-bold">10L+</h3>
+            <h3 className="text-4xl md:text-6xl font-bold">1k+</h3>
             <p className="text-sm md:text-base text-gray-600 mb-3 md:mb-4">Seen in Profits by the users over the span</p>
             <div className="flex-grow mt-3 md:mt-4 -mr-6 md:-mr-8 -mb-6 md:-mb-8">
               <img src="profit-graph.png" alt="Profit graph" className="w-full h-full object-cover" />

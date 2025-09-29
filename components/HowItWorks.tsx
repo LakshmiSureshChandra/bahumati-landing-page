@@ -4,12 +4,12 @@ const steps = [
   {
     id: 1,
     title: 'Choose a Gift',
-    description: 'Select from a wide range of meaningful digital units for any occasion.',
+    description: 'Select the Digi Units for any occasion.',
     icon: 'icon.png' 
   },
   {
     id: 2,
-    title: 'Personalize Your Message',
+    title: 'Record Your Message',
     description: 'Add the recipient’s details and write a heartfelt message/video to make your gift special.',
     icon: 'icon.png'
   },
@@ -30,7 +30,7 @@ export default function HowItWorks() {
             How it works
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Gifting Bahumati DiGi units is simple, secure, and takes only a few moments.
+            Gifting Bahumati DiGi units is simple, secure, and takes only a few clicks.
           </p>
         </div>
 
